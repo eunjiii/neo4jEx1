@@ -2,7 +2,7 @@ package org.honeyrock.repository;
 
 import java.util.Collection;
 
-import org.honeyrock.aa.User;
+import org.honeyrock.domain.User;
 import org.springframework.data.neo4j.annotation.Query;
 import org.springframework.data.neo4j.repository.Neo4jRepository;
 

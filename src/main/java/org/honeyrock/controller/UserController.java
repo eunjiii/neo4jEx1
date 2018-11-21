@@ -2,7 +2,7 @@
 
 import java.util.Collection;
 
-import org.honeyrock.aa.User;
+import org.honeyrock.domain.User;
 import org.honeyrock.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/rest/neo4j/user")
+@RequestMapping("/neo4j")
 public class UserController {
 
 	@Autowired

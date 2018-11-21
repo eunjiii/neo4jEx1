@@ -1,4 +1,4 @@
-package org.honeyrock.aa;
+package org.honeyrock.domain;
 
 import java.util.List;
 
